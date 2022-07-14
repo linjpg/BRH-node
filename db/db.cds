@@ -9,7 +9,7 @@ using {
 
 type CommonName : String(120);
 type CommonAge : Integer default 18;
-type CommonSex : Integer default 20;
+type CommonSex : Integer default 203;
 
 aspect softDeletable:{
   Deleted : Boolean default false;
