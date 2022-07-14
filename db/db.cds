@@ -8,7 +8,7 @@ using {
 } from '@sap/cds/common';
 
 type CommonName : String(120);
-type CommonAge : Integer default 18;
+type CommonAge : Integer default 118;
 type CommonSex : Integer default 203;
 
 aspect softDeletable:{
